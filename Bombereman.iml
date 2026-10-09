@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module relativePaths="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.joml/joml-camera/1.2.0-SNAPSHOT/b77db6cc2d5451f8d6434d120dbe17f6f2a2b8dd/joml-camera-1.2.0-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.joml/joml-camera/1.2.0-SNAPSHOT/dc03097f3f8471f1186d380252c4ef82bf336e25/joml-camera-1.2.0-SNAPSHOT-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.1.2-SNAPSHOT/2de08993dd7d2804784da0e4af5fc08cdfa129c6/lwjgl-3.1.2-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.1.2-SNAPSHOT/9d477206bd3c5f4d1e31acdbeccae47e3087ec49/lwjgl-3.1.2-SNAPSHOT-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.1.2-SNAPSHOT/fb0257903a940897a7f318cddc6d7e03c87ed394/lwjgl-3.1.2-SNAPSHOT-natives-windows.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.1.2-SNAPSHOT/9d477206bd3c5f4d1e31acdbeccae47e3087ec49/lwjgl-3.1.2-SNAPSHOT-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.1.2-SNAPSHOT/6e4f8c01e12ef5846dee75b4a95c8ce02d3ac9b7/lwjgl-glfw-3.1.2-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.1.2-SNAPSHOT/9b3645db70b5acfab71d404f7cd2442bb7c94461/lwjgl-glfw-3.1.2-SNAPSHOT-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.1.2-SNAPSHOT/afeed3ed1d36149d6acad7d0456f33c3f3b145e4/lwjgl-glfw-3.1.2-SNAPSHOT-natives-windows.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.1.2-SNAPSHOT/9b3645db70b5acfab71d404f7cd2442bb7c94461/lwjgl-glfw-3.1.2-SNAPSHOT-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.1.2-SNAPSHOT/3897e0908ad8f6f878b47d277ca93ea69beeff4f/lwjgl-opengl-3.1.2-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.1.2-SNAPSHOT/6f7a52fa0f3eab28b898436708e84fa51861966c/lwjgl-opengl-3.1.2-SNAPSHOT-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.1.2-SNAPSHOT/86d567b175d2785c74cef1572fc2e91f26958efc/lwjgl-opengl-3.1.2-SNAPSHOT-natives-windows.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.1.2-SNAPSHOT/6f7a52fa0f3eab28b898436708e84fa51861966c/lwjgl-opengl-3.1.2-SNAPSHOT-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-stb/3.1.2-SNAPSHOT/b21478fb5cba89f158514fcdbc100ca2b40d0c60/lwjgl-stb-3.1.2-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-stb/3.1.2-SNAPSHOT/8c65ae47dc86b74c0e1a2ed5fdced300f13c808f/lwjgl-stb-3.1.2-SNAPSHOT-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-stb/3.1.2-SNAPSHOT/9abe22c152357f636eb2ad1a3ad4330aa400c563/lwjgl-stb-3.1.2-SNAPSHOT-natives-windows.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-stb/3.1.2-SNAPSHOT/8c65ae47dc86b74c0e1a2ed5fdced300f13c808f/lwjgl-stb-3.1.2-SNAPSHOT-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.joml/joml/1.9.13-SNAPSHOT/14217bdc49e2f2f62277742e738aa4e0f4fdf33a/joml-1.9.13-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.joml/joml/1.9.13-SNAPSHOT/94384c1b4579b04909454dd2df8949a44ad9054d/joml-1.9.13-SNAPSHOT-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.joml/joml-camera/1.2.0-SNAPSHOT/b77db6cc2d5451f8d6434d120dbe17f6f2a2b8dd/joml-camera-1.2.0-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.joml/joml-camera/1.2.0-SNAPSHOT/dc03097f3f8471f1186d380252c4ef82bf336e25/joml-camera-1.2.0-SNAPSHOT-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.1.2-SNAPSHOT/2de08993dd7d2804784da0e4af5fc08cdfa129c6/lwjgl-3.1.2-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.1.2-SNAPSHOT/9d477206bd3c5f4d1e31acdbeccae47e3087ec49/lwjgl-3.1.2-SNAPSHOT-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.1.2-SNAPSHOT/fb0257903a940897a7f318cddc6d7e03c87ed394/lwjgl-3.1.2-SNAPSHOT-natives-windows.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.1.2-SNAPSHOT/9d477206bd3c5f4d1e31acdbeccae47e3087ec49/lwjgl-3.1.2-SNAPSHOT-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.1.2-SNAPSHOT/6e4f8c01e12ef5846dee75b4a95c8ce02d3ac9b7/lwjgl-glfw-3.1.2-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.1.2-SNAPSHOT/9b3645db70b5acfab71d404f7cd2442bb7c94461/lwjgl-glfw-3.1.2-SNAPSHOT-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.1.2-SNAPSHOT/afeed3ed1d36149d6acad7d0456f33c3f3b145e4/lwjgl-glfw-3.1.2-SNAPSHOT-natives-windows.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.1.2-SNAPSHOT/9b3645db70b5acfab71d404f7cd2442bb7c94461/lwjgl-glfw-3.1.2-SNAPSHOT-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.1.2-SNAPSHOT/3897e0908ad8f6f878b47d277ca93ea69beeff4f/lwjgl-opengl-3.1.2-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.1.2-SNAPSHOT/6f7a52fa0f3eab28b898436708e84fa51861966c/lwjgl-opengl-3.1.2-SNAPSHOT-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.1.2-SNAPSHOT/86d567b175d2785c74cef1572fc2e91f26958efc/lwjgl-opengl-3.1.2-SNAPSHOT-natives-windows.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.1.2-SNAPSHOT/6f7a52fa0f3eab28b898436708e84fa51861966c/lwjgl-opengl-3.1.2-SNAPSHOT-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-stb/3.1.2-SNAPSHOT/b21478fb5cba89f158514fcdbc100ca2b40d0c60/lwjgl-stb-3.1.2-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-stb/3.1.2-SNAPSHOT/8c65ae47dc86b74c0e1a2ed5fdced300f13c808f/lwjgl-stb-3.1.2-SNAPSHOT-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-stb/3.1.2-SNAPSHOT/9abe22c152357f636eb2ad1a3ad4330aa400c563/lwjgl-stb-3.1.2-SNAPSHOT-natives-windows.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-stb/3.1.2-SNAPSHOT/8c65ae47dc86b74c0e1a2ed5fdced300f13c808f/lwjgl-stb-3.1.2-SNAPSHOT-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.joml/joml/1.9.13-SNAPSHOT/14217bdc49e2f2f62277742e738aa4e0f4fdf33a/joml-1.9.13-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.joml/joml/1.9.13-SNAPSHOT/94384c1b4579b04909454dd2df8949a44ad9054d/joml-1.9.13-SNAPSHOT-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.joml/joml-camera/1.2.0-SNAPSHOT/b77db6cc2d5451f8d6434d120dbe17f6f2a2b8dd/joml-camera-1.2.0-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.joml/joml-camera/1.2.0-SNAPSHOT/dc03097f3f8471f1186d380252c4ef82bf336e25/joml-camera-1.2.0-SNAPSHOT-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.1.2-SNAPSHOT/2de08993dd7d2804784da0e4af5fc08cdfa129c6/lwjgl-3.1.2-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.1.2-SNAPSHOT/9d477206bd3c5f4d1e31acdbeccae47e3087ec49/lwjgl-3.1.2-SNAPSHOT-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.1.2-SNAPSHOT/fb0257903a940897a7f318cddc6d7e03c87ed394/lwjgl-3.1.2-SNAPSHOT-natives-windows.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.1.2-SNAPSHOT/9d477206bd3c5f4d1e31acdbeccae47e3087ec49/lwjgl-3.1.2-SNAPSHOT-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.1.2-SNAPSHOT/6e4f8c01e12ef5846dee75b4a95c8ce02d3ac9b7/lwjgl-glfw-3.1.2-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.1.2-SNAPSHOT/9b3645db70b5acfab71d404f7cd2442bb7c94461/lwjgl-glfw-3.1.2-SNAPSHOT-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.1.2-SNAPSHOT/afeed3ed1d36149d6acad7d0456f33c3f3b145e4/lwjgl-glfw-3.1.2-SNAPSHOT-natives-windows.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.1.2-SNAPSHOT/9b3645db70b5acfab71d404f7cd2442bb7c94461/lwjgl-glfw-3.1.2-SNAPSHOT-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.1.2-SNAPSHOT/3897e0908ad8f6f878b47d277ca93ea69beeff4f/lwjgl-opengl-3.1.2-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.1.2-SNAPSHOT/6f7a52fa0f3eab28b898436708e84fa51861966c/lwjgl-opengl-3.1.2-SNAPSHOT-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.1.2-SNAPSHOT/86d567b175d2785c74cef1572fc2e91f26958efc/lwjgl-opengl-3.1.2-SNAPSHOT-natives-windows.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.1.2-SNAPSHOT/6f7a52fa0f3eab28b898436708e84fa51861966c/lwjgl-opengl-3.1.2-SNAPSHOT-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-stb/3.1.2-SNAPSHOT/b21478fb5cba89f158514fcdbc100ca2b40d0c60/lwjgl-stb-3.1.2-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-stb/3.1.2-SNAPSHOT/8c65ae47dc86b74c0e1a2ed5fdced300f13c808f/lwjgl-stb-3.1.2-SNAPSHOT-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-stb/3.1.2-SNAPSHOT/9abe22c152357f636eb2ad1a3ad4330aa400c563/lwjgl-stb-3.1.2-SNAPSHOT-natives-windows.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-stb/3.1.2-SNAPSHOT/8c65ae47dc86b74c0e1a2ed5fdced300f13c808f/lwjgl-stb-3.1.2-SNAPSHOT-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.joml/joml/1.9.13-SNAPSHOT/14217bdc49e2f2f62277742e738aa4e0f4fdf33a/joml-1.9.13-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.joml/joml/1.9.13-SNAPSHOT/94384c1b4579b04909454dd2df8949a44ad9054d/joml-1.9.13-SNAPSHOT-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
