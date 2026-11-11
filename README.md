@@ -14,6 +14,14 @@ Grab `Bomberman-windows-x64.zip` from the
 unzip it and run `Bomberman.exe`. No Java installation is needed - the zip
 ships its own trimmed Java runtime.
 
+## Gameplay video
+
+A full playthrough: launcher, menu, high scores, save / load, quick save / quick
+load, all five levels with the cut-scenes, the boss, the score board and the
+end credits.
+
+[![Gameplay video](docs/screenshots/gameplay-video.png)](https://github.com/DorianKucharski/bomberman/releases/download/v1.6.0/bomberman-gameplay.mp4)
+
 ## Screenshots
 
 | Launcher | Main menu |
