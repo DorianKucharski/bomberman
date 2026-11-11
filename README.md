@@ -21,7 +21,10 @@ load, all five levels with the cut-scenes, the boss, the score board and the
 end credits, with a Polish voice-over commentary
 ([subtitles](https://github.com/DorianKucharski/bomberman/releases/download/v1.6.0/bomberman-gameplay.pl.srt)).
 
-[![Gameplay video](docs/screenshots/gameplay-video.png)](https://github.com/DorianKucharski/bomberman/releases/download/v1.6.0/bomberman-gameplay.mp4)
+[![Gameplay video](docs/screenshots/gameplay-video.png)](https://youtu.be/CC4NiHoSq18)
+
+Watch it [on YouTube](https://youtu.be/CC4NiHoSq18) or download the
+[MP4 from the release](https://github.com/DorianKucharski/bomberman/releases/download/v1.6.0/bomberman-gameplay.mp4).
 
 ## Screenshots
 
