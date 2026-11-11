@@ -18,7 +18,8 @@ ships its own trimmed Java runtime.
 
 A full playthrough: launcher, menu, high scores, save / load, quick save / quick
 load, all five levels with the cut-scenes, the boss, the score board and the
-end credits.
+end credits, with a Polish voice-over commentary
+([subtitles](https://github.com/DorianKucharski/bomberman/releases/download/v1.6.0/bomberman-gameplay.pl.srt)).
 
 [![Gameplay video](docs/screenshots/gameplay-video.png)](https://github.com/DorianKucharski/bomberman/releases/download/v1.6.0/bomberman-gameplay.mp4)
 
