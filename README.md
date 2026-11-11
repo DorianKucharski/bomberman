@@ -7,6 +7,23 @@ menu, save slots, a high-score board, cut-scenes and sound.
 This is a student / personal project; the in-code documentation (Javadoc
 comments) is written in Polish.
 
+## Download
+
+Grab `Bomberman-windows-x64.zip` from the
+[latest release](https://github.com/DorianKucharski/bomberman/releases/latest),
+unzip it and run `Bomberman.exe`. No Java installation is needed - the zip
+ships its own trimmed Java runtime.
+
+## Screenshots
+
+| Launcher | Main menu |
+| --- | --- |
+| ![Launcher](docs/screenshots/launcher.png) | ![Main menu](docs/screenshots/menu.png) |
+
+| Gameplay | Explosion |
+| --- | --- |
+| ![Gameplay](docs/screenshots/gameplay.png) | ![Explosion](docs/screenshots/explosion.png) |
+
 ## Features
 
 - Tile-based world with multiple levels (`levels/`)
@@ -21,26 +38,42 @@ comments) is written in Polish.
 
 - Java
 - [LWJGL](https://www.lwjgl.org/) 3.1.2 (GLFW, OpenGL, STB)
+- Swing (launcher window), Java Sound (audio playback)
 - [JOML](https://github.com/JOML-CI/JOML) (math / camera)
 - OpenGL shaders (GLSL, in `src/main/resources/shaders/`)
 
-## Building and running
+## Building
 
-The repository is an IntelliJ IDEA project (`Bomberman.ipr` / `Bombereman.iml`).
-There is no committed build script; the LWJGL and JOML dependencies are
-referenced as IDE module libraries (they were resolved through the Gradle
-dependency cache on the original machine). To build:
+Requirements: Windows and a JDK 17 or newer (the script needs `jpackage`).
+Dependencies (LWJGL 3.1.2, JOML) are downloaded from Maven Central automatically.
 
-1. Open the project in IntelliJ IDEA.
-2. Make sure the LWJGL 3.1.2 and JOML libraries (including the LWJGL native
-   jar for your platform) are on the module classpath.
-3. Run the `com.bomberman.game.Main` class.
+```powershell
+powershell -ExecutionPolicy Bypass -File build.ps1
+```
 
-The game loads assets with paths relative to the working directory, so run it
-from the repository root (it expects the `music/`, `levels/`, `saves/`,
-`shaders/` and `textures/` folders to be reachable).
+The script looks for the JDK in `JAVA_HOME`, then in `~/.jdks` and the usual
+install folders. Output:
 
-Controls: move with `W` / `A` / `S` / `D`, drop a bomb with `Space`.
+- `build/dist/Bomberman/Bomberman.exe` - ready-to-run app image
+- `build/Bomberman-windows-x64.zip` - the same folder zipped for a release
+
+The game opens `levels/`, `music/`, `saves/` and `Wyniki.bin` relative to the
+working directory, so start `Bomberman.exe` from its own folder (a double-click
+does that).
+
+To run from IntelliJ IDEA instead, add the jars from `build/lib` (created by the
+script) to the module classpath and run `com.bomberman.game.Main` with the
+repository root as the working directory.
+
+## Controls
+
+| Key | Action |
+| --- | --- |
+| `W` `A` `S` `D` | move |
+| `Space` | drop a bomb |
+| `F5` / `F8` | quick save / quick load |
+| `F9` | screenshot (saved to `screenshots/`) |
+| `Esc` | menu / pause |
 
 ## Project structure
 
@@ -49,6 +82,7 @@ Controls: move with `W` / `A` / `S` / `D`, drop a bomb with `Space`.
   `scores`)
 - `src/main/resources/` - shaders, textures and save-slot thumbnails
 - `levels/` - level definitions (image-based tile maps)
-- `music/` - sound effects and music (WAV)
-- `screenshots/` - example screenshots
-- `doc/` - generated Javadoc
+- `music/` - music (OGG Vorbis, decoded with LWJGL's stb_vorbis) and sound effects (WAV)
+- `build.ps1` - build script producing the Windows exe
+- `screenshots/` - in-game screenshots taken with `F9`
+- `docs/screenshots/` - screenshots used in this README

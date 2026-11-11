@@ -4,7 +4,13 @@ import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
 import java.io.File;
+import java.nio.IntBuffer;
+import java.nio.ShortBuffer;
 import javax.sound.sampled.*;
+
+import org.lwjgl.BufferUtils;
+import org.lwjgl.stb.STBVorbis;
+import org.lwjgl.system.libc.LibCStdlib;
 
 /**
  * Odtwarzanie muzyki
@@ -59,18 +65,37 @@ public class Audio {
     }
 
     /**
+     * Dekoduje plik OGG Vorbis (stb_vorbis z LWJGL) i laduje go do obiektu Clip
+     * @param filePath sciezka pliku .ogg
+     * @return gotowy do odtworzenia Clip
+     * @throws Exception gdy nie uda sie zdekodowac pliku lub otworzyc linii audio
+     */
+    private static Clip loadOgg(String filePath) throws Exception {
+        IntBuffer channels = BufferUtils.createIntBuffer(1);
+        IntBuffer sampleRate = BufferUtils.createIntBuffer(1);
+        ShortBuffer pcm = STBVorbis.stb_vorbis_decode_filename(filePath, channels, sampleRate);
+        if (pcm == null) throw new Exception("Nie udalo sie zdekodowac " + filePath);
+        byte[] data = new byte[pcm.remaining() * 2];
+        for (int i = 0, n = pcm.remaining(); i < n; i++) {
+            short sample = pcm.get(i);
+            data[2 * i] = (byte) sample;
+            data[2 * i + 1] = (byte) (sample >> 8);
+        }
+        LibCStdlib.free(pcm);
+        AudioFormat format = new AudioFormat(sampleRate.get(0), 16, channels.get(0), true, false);
+        Clip clip = AudioSystem.getClip();
+        clip.open(format, data, 0, data.length);
+        return clip;
+    }
+
+    /**
      * Odtwarza muzyke
      */
     public static void playMusic(){
         try
         {
-            File file = new File("music/music1.wav");
-            AudioInputStream stream = AudioSystem.getAudioInputStream(file);
-            music = AudioSystem.getClip();
-            music.open(stream);
+            music = loadOgg("music/music1.ogg");
             music.start();
-
-            stream.close();
         }catch (Exception e){
             System.out.println(e.getMessage());
         }
@@ -100,12 +125,8 @@ public class Audio {
         music.stop();
         try
         {
-            File file = new File("music/music2.wav");
-            AudioInputStream stream = AudioSystem.getAudioInputStream(file);
-            music = AudioSystem.getClip();
-            music.open(stream);
+            music = loadOgg("music/music2.ogg");
             music.start();
-            stream.close();
         }catch (Exception e){
             System.out.println(e.getMessage());
         }
